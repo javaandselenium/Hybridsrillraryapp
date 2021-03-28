@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-28T08:44:32 IST" name="Suite" finished-at="2021-03-28T08:46:36 IST" duration-ms="124512">
+    <groups>
+    </groups>
+    <test started-at="2021-03-28T08:44:32 IST" name="Test" finished-at="2021-03-28T08:46:36 IST" duration-ms="124512">
+      <class name="scripts.FaceBooklike">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:scripts.FaceBooklike@dd0c991]" started-at="2021-03-28T08:44:32 IST" name="openapp" finished-at="2021-03-28T08:44:48 IST" duration-ms="16201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="facebooklikebtn()[pri:0, instance:scripts.FaceBooklike@dd0c991]" started-at="2021-03-28T08:44:48 IST" name="facebooklikebtn" finished-at="2021-03-28T08:45:09 IST" duration-ms="21397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebooklikebtn -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scripts.FaceBooklike@dd0c991]" started-at="2021-03-28T08:45:09 IST" name="closeapp" finished-at="2021-03-28T08:45:11 IST" duration-ms="1181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=facebooklikebtn status=SUCCESS method=FaceBooklike.facebooklikebtn()[pri:0, instance:scripts.FaceBooklike@dd0c991] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.FaceBooklike -->
+      <class name="scripts.AddingCoursetocart">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:scripts.AddingCoursetocart@5f16132a]" started-at="2021-03-28T08:45:11 IST" name="openapp" finished-at="2021-03-28T08:45:22 IST" duration-ms="11723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="addingTocart()[pri:0, instance:scripts.AddingCoursetocart@5f16132a]" started-at="2021-03-28T08:45:22 IST" name="addingTocart" finished-at="2021-03-28T08:45:48 IST" duration-ms="26194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingTocart -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scripts.AddingCoursetocart@5f16132a]" started-at="2021-03-28T08:45:48 IST" name="closeapp" finished-at="2021-03-28T08:45:50 IST" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addingTocart status=SUCCESS method=AddingCoursetocart.addingTocart()[pri:0, instance:scripts.AddingCoursetocart@5f16132a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.AddingCoursetocart -->
+      <class name="scripts.TakeingCouse">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:scripts.TakeingCouse@69fb6037]" started-at="2021-03-28T08:45:50 IST" name="openapp" finished-at="2021-03-28T08:45:58 IST" duration-ms="8782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="takecourses()[pri:0, instance:scripts.TakeingCouse@69fb6037]" started-at="2021-03-28T08:45:58 IST" name="takecourses" finished-at="2021-03-28T08:46:34 IST" duration-ms="35511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takecourses -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scripts.TakeingCouse@69fb6037]" started-at="2021-03-28T08:46:34 IST" name="closeapp" finished-at="2021-03-28T08:46:36 IST" duration-ms="2233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=takecourses status=SUCCESS method=TakeingCouse.takecourses()[pri:0, instance:scripts.TakeingCouse@69fb6037] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.TakeingCouse -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
